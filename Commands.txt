@@ -1,0 +1,1 @@
+python randomTrips.py -n ".net.xml -e 600 -o ".trips.xml
