@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 04/17/21 16:05:38 by Eclipse SUMO sumo Version v1_8_0+1925-6bf04e0fef
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="galwayclean.net.xml"/>
+        <route-files value="galway.rou.xml"/>
+        <additional-files value="additional.xml"/>
+    </input>
+
+    <output>
+        <collision-output value="colout60.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="11000"/>
+        <step-length value="1"/>
+    </time>
+
+    <report>
+        <verbose value="true"/>
+        <no-warnings value="true"/>
+        <duration-log.statistics value="true"/>
+    </report>
+
+    <gui_only>
+        <tracker-interval value="1"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<collisions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/collision_file.xsd">
+    <collision time="310.00" type="junction" lane=":253526448_1_0" pos="8.88" collider="133" victim="38" colliderType="CAV4" victimType="CAV2" colliderSpeed="6.23" victimSpeed="0.29"/>
+    <collision time="1292.00" type="collision" lane="245232808#3_0" pos="59.59" collider="1011" victim="1236" colliderType="HDV" victimType="CAV2" colliderSpeed="3.53" victimSpeed="0.00"/>
+    <collision time="1411.00" type="collision" lane="-131655247#0_1" pos="5.34" collider="1339" victim="1333" colliderType="HDV" victimType="CAV4" colliderSpeed="0.74" victimSpeed="0.00"/>
+    <collision time="1423.00" type="collision" lane="-131655247#0_1" pos="5.34" collider="1294" victim="1333" colliderType="HDV" victimType="CAV4" colliderSpeed="1.16" victimSpeed="0.00"/>
+    <collision time="1681.00" type="collision" lane="23453287#8_0" pos="35.20" collider="1598" victim="1556" colliderType="CAV2" victimType="CAV2" colliderSpeed="3.84" victimSpeed="0.00"/>
+    <collision time="1684.00" type="collision" lane="896868665#2_0" pos="12.57" collider="1656" victim="1627" colliderType="HDV" victimType="HDV" colliderSpeed="3.89" victimSpeed="0.00"/>
+    <collision time="1686.00" type="collision" lane="24001181_0" pos="10.47" collider="1478" victim="1387" colliderType="HDV" victimType="CAV2" colliderSpeed="3.17" victimSpeed="0.00"/>
+    <collision time="2054.00" type="collision" lane="307192473#4_1" pos="107.42" collider="1794" victim="1958" colliderType="HDV" victimType="CAV2" colliderSpeed="1.43" victimSpeed="0.00"/>
+    <collision time="2055.00" type="collision" lane="896868665#2_0" pos="12.57" collider="2023" victim="1950" colliderType="HDV" victimType="CAV2" colliderSpeed="3.35" victimSpeed="0.00"/>
+    <collision time="2206.00" type="collision" lane="245232801_0" pos="91.58" collider="1985" victim="2095" colliderType="HDV" victimType="CAV2" colliderSpeed="2.76" victimSpeed="0.00"/>
+    <collision time="2261.00" type="collision" lane="95807619#13_0" pos="30.41" collider="2208" victim="2092" colliderType="HDV" victimType="CAV2" colliderSpeed="2.99" victimSpeed="0.00"/>
+    <collision time="2328.00" type="collision" lane="-131655247#0_1" pos="5.35" collider="2154" victim="2214" colliderType="HDV" victimType="HDV" colliderSpeed="3.61" victimSpeed="0.00"/>
+    <collision time="2508.00" type="collision" lane="-131655426#1_0" pos="5.42" collider="2273" victim="2389" colliderType="HDV" victimType="CAV2" colliderSpeed="0.66" victimSpeed="0.00"/>
+    <collision time="2743.00" type="collision" lane="-95807620#0_0" pos="11.41" collider="2632" victim="2610" colliderType="HDV" victimType="HDV" colliderSpeed="2.36" victimSpeed="0.00"/>
+    <collision time="2778.00" type="collision" lane="-131655247#0_1" pos="5.35" collider="2566" victim="2541" colliderType="HDV" victimType="HDV" colliderSpeed="2.42" victimSpeed="0.00"/>
+    <collision time="2946.00" type="collision" lane="476127076#2_0" pos="108.02" collider="2835" victim="2782" colliderType="HDV" victimType="CAV2" colliderSpeed="2.18" victimSpeed="0.00"/>
+    <collision time="2957.00" type="collision" lane="307192473#4_0" pos="107.41" collider="2752" victim="2743" colliderType="HDV" victimType="HDV" colliderSpeed="1.65" victimSpeed="0.00"/>
+    <collision time="3043.00" type="collision" lane="-202855821#0_0" pos="32.15" collider="2988" victim="2964" colliderType="HDV" victimType="CAV4" colliderSpeed="0.71" victimSpeed="0.00"/>
+    <collision time="3143.00" type="collision" lane="-131655426#1_0" pos="7.05" collider="3085" victim="3023" colliderType="HDV" victimType="CAV2" colliderSpeed="3.93" victimSpeed="0.00"/>
+    <collision time="3300.00" type="collision" lane="245232807#7_1" pos="200.28" collider="3140" victim="3164" colliderType="HDV" victimType="HDV" colliderSpeed="1.02" victimSpeed="0.00"/>
+    <collision time="3410.00" type="collision" lane="42888553#4_0" pos="63.61" collider="3242" victim="3288" colliderType="HDV" victimType="HDV" colliderSpeed="0.70" victimSpeed="0.00"/>
+    <collision time="3452.00" type="collision" lane="-338085757#1_0" pos="223.85" collider="3346" victim="3371" colliderType="CAV2" victimType="CAV2" colliderSpeed="3.84" victimSpeed="0.00"/>
+    <collision time="3481.00" type="collision" lane="-131655426#1_0" pos="12.44" collider="3230" victim="3242" colliderType="HDV" victimType="HDV" colliderSpeed="3.46" victimSpeed="0.00"/>
+    <collision time="3580.00" type="collision" lane="42888553#4_0" pos="85.62" collider="3261" victim="3523" colliderType="HDV" victimType="HDV" colliderSpeed="0.92" victimSpeed="0.00"/>
+    <collision time="3732.00" type="collision" lane="-131838565#0_0" pos="61.09" collider="3664" victim="3697" colliderType="HDV" victimType="CAV2" colliderSpeed="0.60" victimSpeed="0.00"/>
+    <collision time="3840.00" type="collision" lane="245232799#1_0" pos="11.31" collider="3703" victim="3763" colliderType="HDV" victimType="CAV2" colliderSpeed="2.99" victimSpeed="0.00"/>
+    <collision time="4297.00" type="collision" lane="-896868665#4_0" pos="61.70" collider="4176" victim="4015" colliderType="HDV" victimType="CAV2" colliderSpeed="0.94" victimSpeed="0.00"/>
+    <collision time="4317.00" type="collision" lane="-23453287#11_0" pos="13.62" collider="4233" victim="4199" colliderType="HDV" victimType="HDV" colliderSpeed="3.06" victimSpeed="0.00"/>
+    <collision time="4348.00" type="collision" lane="-95807620#0_0" pos="19.01" collider="4295" victim="4267" colliderType="HDV" victimType="HDV" colliderSpeed="3.24" victimSpeed="0.00"/>
+    <collision time="4472.00" type="collision" lane="-196190040#1_0" pos="162.25" collider="4377" victim="4408" colliderType="HDV" victimType="CAV2" colliderSpeed="0.89" victimSpeed="0.00"/>
+    <collision time="4640.00" type="collision" lane="42888553#4_0" pos="93.12" collider="4459" victim="4488" colliderType="HDV" victimType="CAV2" colliderSpeed="3.80" victimSpeed="0.00"/>
+    <collision time="4828.00" type="collision" lane="42888553#4_0" pos="86.89" collider="4695" victim="4814" colliderType="HDV" victimType="CAV2" colliderSpeed="1.24" victimSpeed="0.00"/>
+    <collision time="4971.00" type="collision" lane="-131838565#0_0" pos="65.60" collider="4900" victim="4896" colliderType="HDV" victimType="CAV2" colliderSpeed="3.40" victimSpeed="0.00"/>
+    <collision time="5120.00" type="collision" lane="-131655426#2_0" pos="62.62" collider="4902" victim="4886" colliderType="HDV" victimType="CAV2" colliderSpeed="3.48" victimSpeed="0.00"/>
+    <collision time="5154.00" type="collision" lane="306865642#12_0" pos="30.55" collider="5117" victim="5038" colliderType="HDV" victimType="CAV2" colliderSpeed="1.03" victimSpeed="0.00"/>
+    <collision time="5196.00" type="collision" lane="-23453287#11_0" pos="21.71" collider="5043" victim="5035" colliderType="HDV" victimType="CAV2" colliderSpeed="1.16" victimSpeed="0.00"/>
+    <collision time="5287.00" type="collision" lane="-196190040#1_0" pos="169.06" collider="5197" victim="5138" colliderType="HDV" victimType="CAV4" colliderSpeed="3.24" victimSpeed="0.00"/>
+    <collision time="5366.00" type="collision" lane="-306596445#1_0" pos="37.74" collider="5319" victim="5269" colliderType="HDV" victimType="CAV2" colliderSpeed="3.52" victimSpeed="0.00"/>
+    <collision time="5538.00" type="collision" lane="306865642#12_0" pos="28.72" collider="5495" victim="5493" colliderType="HDV" victimType="HDV" colliderSpeed="4.13" victimSpeed="0.00"/>
+    <collision time="5910.00" type="collision" lane="-202855820_0" pos="10.07" collider="5805" victim="5579" colliderType="HDV" victimType="HDV" colliderSpeed="2.18" victimSpeed="0.00"/>
+    <collision time="5923.00" type="collision" lane="-131655247#0_1" pos="7.64" collider="5703" victim="5885" colliderType="CAV2" victimType="CAV2" colliderSpeed="3.88" victimSpeed="0.00"/>
+    <collision time="6152.00" type="collision" lane="-23453287#1_0" pos="47.66" collider="6131" victim="6125" colliderType="HDV" victimType="HDV" colliderSpeed="2.20" victimSpeed="0.00"/>
+    <collision time="6287.00" type="collision" lane="-896868665#4_0" pos="57.00" collider="6051" victim="6034" colliderType="CAV2" victimType="CAV2" colliderSpeed="3.81" victimSpeed="0.00"/>
+    <collision time="6327.00" type="collision" lane="245232806#6_1" pos="66.19" collider="6186" victim="5975" colliderType="HDV" victimType="CAV2" colliderSpeed="1.69" victimSpeed="0.00"/>
+    <collision time="6338.00" type="collision" lane="-601761837#0_0" pos="77.06" collider="6299" victim="6217" colliderType="HDV" victimType="CAV4" colliderSpeed="2.05" victimSpeed="0.00"/>
+    <collision time="6509.00" type="collision" lane="245232797#2_1" pos="61.43" collider="6500" victim="6396" colliderType="HDV" victimType="CAV4" colliderSpeed="3.51" victimSpeed="0.00"/>
+    <collision time="6550.00" type="collision" lane="306596445#0_0" pos="24.59" collider="6373" victim="6397" colliderType="HDV" victimType="CAV2" colliderSpeed="2.41" victimSpeed="0.00"/>
+    <collision time="7257.00" type="collision" lane="-306596445#1_0" pos="37.72" collider="7183" victim="7028" colliderType="HDV" victimType="CAV2" colliderSpeed="0.92" victimSpeed="0.00"/>
+    <collision time="7813.00" type="collision" lane="307192473#4_0" pos="109.71" collider="7535" victim="7568" colliderType="CAV2" victimType="CAV2" colliderSpeed="3.86" victimSpeed="0.00"/>
+    <collision time="7897.00" type="collision" lane="24001181_0" pos="10.47" collider="7659" victim="7696" colliderType="HDV" victimType="HDV" colliderSpeed="2.52" victimSpeed="0.00"/>
+    <collision time="8014.00" type="collision" lane="245232789#1_0" pos="4.54" collider="7963" victim="7945" colliderType="HDV" victimType="CAV2" colliderSpeed="0.46" victimSpeed="0.00"/>
+    <collision time="8180.00" type="collision" lane="-896868665#4_0" pos="61.71" collider="7912" victim="7960" colliderType="HDV" victimType="CAV4" colliderSpeed="4.16" victimSpeed="0.00"/>
+    <collision time="8431.00" type="collision" lane="-131655426#2_0" pos="65.27" collider="8377" victim="8302" colliderType="CAV2" victimType="CAV2" colliderSpeed="3.83" victimSpeed="0.00"/>
+    <collision time="8574.00" type="collision" lane="95799600#10_0" pos="5.43" collider="8473" victim="8497" colliderType="HDV" victimType="CAV2" colliderSpeed="3.92" victimSpeed="0.00"/>
+    <collision time="8615.00" type="collision" lane="-131655426#1_0" pos="12.43" collider="8362" victim="8564" colliderType="HDV" victimType="CAV2" colliderSpeed="2.96" victimSpeed="0.00"/>
+    <collision time="8630.00" type="collision" lane="306596445#0_0" pos="24.59" collider="8353" victim="8601" colliderType="HDV" victimType="CAV2" colliderSpeed="2.66" victimSpeed="0.00"/>
+    <collision time="8984.00" type="collision" lane="42888553#4_0" pos="93.11" collider="8806" victim="8775" colliderType="HDV" victimType="CAV4" colliderSpeed="3.55" victimSpeed="0.00"/>
+    <collision time="9165.00" type="collision" lane="105412946#14_0" pos="233.37" collider="9058" victim="9041" colliderType="HDV" victimType="HDV" colliderSpeed="2.86" victimSpeed="0.00"/>
+    <collision time="9272.00" type="collision" lane="42888553#4_0" pos="58.09" collider="9185" victim="9111" colliderType="HDV" victimType="CAV2" colliderSpeed="0.90" victimSpeed="0.00"/>
+    <collision time="9438.00" type="collision" lane="476127076#2_0" pos="111.09" collider="9329" victim="9415" colliderType="CAV2" victimType="CAV2" colliderSpeed="3.80" victimSpeed="0.00"/>
+    <collision time="9508.00" type="collision" lane="-95807620#0_0" pos="18.91" collider="9382" victim="9424" colliderType="HDV" victimType="CAV2" colliderSpeed="0.43" victimSpeed="0.00"/>
+    <collision time="9512.00" type="collision" lane="42888553#4_0" pos="93.12" collider="9400" victim="9353" colliderType="HDV" victimType="CAV2" colliderSpeed="2.08" victimSpeed="0.00"/>
+    <collision time="9702.00" type="junction" lane=":2524648370_1_0" pos="14.76" collider="9560" victim="9538" colliderType="HDV" victimType="CAV2" colliderSpeed="2.94" victimSpeed="0.00"/>
+</collisions>

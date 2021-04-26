@@ -1,4 +1,4 @@
 randomTrips --validate
 density 
-python plot_net_dump.py -v -n galwayclean.net.xml -i edgeout.xml,edgeout.xml --measures speed,entered --max-width-value 10000 --min-width-value -10000 -o plot.png --min-color-value 0 --max-color-value 16
+python plot_net_dump.py -v -n galwayclean.net.xml -i edgeouth.xml,edgeouth.xml --measures speed,speed --max-width-value 10000 --min-width-value -10000 -o plot.png --min-color-value 0 --max-color-value 16
 sumo -c galway.sumo.cfg --duration-log.statistics 1 --collision-output colout.xml --step-length 1 --no-warnings

@@ -1,6 +1,5 @@
 <additional>
 
-<edgeData id="M1" file="edgeout.xml"/>
-<collision id="C1" file="colout.xml"/>
+<edgeData id="M1" file="edgeout100.xml"/>
 
 </additional>

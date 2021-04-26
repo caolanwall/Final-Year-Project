@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 04/23/21 03:48:41 by Eclipse SUMO sumo Version v1_8_0+1925-6bf04e0fef
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="galwayclean.net.xml"/>
+        <route-files value="galway.rou.xml"/>
+        <additional-files value="additional.xml"/>
+    </input>
+
+    <output>
+        <collision-output value="colout4.xml"/>
+    </output>
+
+    <time>
+        <step-length value="1"/>
+    </time>
+
+    <report>
+        <verbose value="true"/>
+        <no-warnings value="true"/>
+        <duration-log.statistics value="true"/>
+    </report>
+
+    <gui_only>
+        <tracker-interval value="1"/>
+    </gui_only>
+
+</configuration>
+-->
+
+<collisions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/collision_file.xsd">
+    <collision time="836.00" type="collision" lane="476127076#2_0" pos="101.61" collider="781" victim="715" colliderType="CAV4" victimType="CAV4" colliderSpeed="8.08" victimSpeed="0.00"/>
+    <collision time="2907.00" type="collision" lane="476127076#2_0" pos="116.68" collider="2603" victim="2632" colliderType="CAV4" victimType="CAV4" colliderSpeed="5.47" victimSpeed="0.00"/>
+    <collision time="3726.00" type="junction" lane=":245225073_0_0" pos="6.78" collider="3527" victim="3544" colliderType="CAV4" victimType="CAV4" colliderSpeed="5.85" victimSpeed="0.10"/>
+    <collision time="3888.00" type="collision" lane="-131655426#2_0" pos="57.62" collider="3685" victim="3827" colliderType="CAV4" victimType="CAV4" colliderSpeed="6.84" victimSpeed="0.15"/>
+    <collision time="4172.00" type="junction" lane=":253526448_1_1" pos="6.35" collider="4026" victim="3893" colliderType="CAV4" victimType="CAV4" colliderSpeed="7.71" victimSpeed="0.00"/>
+    <collision time="5791.00" type="collision" lane="-42888553#0_0" pos="61.82" collider="5582" victim="5607" colliderType="CAV4" victimType="CAV4" colliderSpeed="5.60" victimSpeed="0.00"/>
+    <collision time="7855.00" type="collision" lane="476127076#2_0" pos="109.06" collider="7561" victim="7558" colliderType="CAV4" victimType="CAV4" colliderSpeed="6.61" victimSpeed="0.00"/>
+    <collision time="8311.00" type="collision" lane="476127076#2_0" pos="100.52" collider="8066" victim="8019" colliderType="CAV4" victimType="CAV4" colliderSpeed="4.72" victimSpeed="0.00"/>
+    <collision time="8400.00" type="collision" lane="-131655426#2_0" pos="51.16" collider="8307" victim="8302" colliderType="CAV4" victimType="CAV4" colliderSpeed="6.85" victimSpeed="0.00"/>
+    <collision time="9403.00" type="junction" lane=":245225006_2_0" pos="4.37" collider="9241" victim="9188" colliderType="CAV4" victimType="CAV4" colliderSpeed="6.29" victimSpeed="0.00"/>
+</collisions>
