@@ -1,7 +1,0 @@
-netconvert --osm-files map.osm --output-file bigtest.net.xml --geometry.remove --roundabouts.guess --ramps.guess --junctions.join --tls.guess-signals --tls.discard-simple --tls.join --lefthand true --no-turnarounds
-python randomTrips.py -n bigtest.net.xml -e 5000 -o moncross.trips.xml
-duarouter -n bigtest.net.xml --route-files moncross.trips.xml -o moncross.rou.xml --ignore-errors
-
-
-python randomTrips.py -n def.net.xml -e 1000 -o def.trips.xml
-duarouter -n def.net.xml --route-files def.trips.xml -o def.rou.xml --ignore-errors

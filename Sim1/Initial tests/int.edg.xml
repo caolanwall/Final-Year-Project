@@ -1,4 +1,0 @@
-<edges>
-	<edge id="e1" from="1" to="2" numLanes="3" speed="14.0"/>
-	<edge id="e2" from="3" to="4" numLanes="3" speed="14.0"/>
-</edges>	
